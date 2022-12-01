@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 50 auto 0 auto;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  margin: 20px;
+}
+
+h3 {
+  color: #11999e;
+  margin: 20px;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 10%;
+  margin:  auto;
+
+}
+
+.top {
+  background-color: aqua;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.student {
+  text-decoration: underline;
+}
+
+.mountain{
+  position: relative;
+  bottom: 0;
+}
+.cloud2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile-pic {
+  margin-top: 33px;
+  border-radius: 100%;
+  height: 250px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto;
+  line-height: 2;
+}
+
+.skills-para {
+  text-align: left;
+}
+
+.skills-computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  height: 151px;
+  width: 151px;
+}
+
+.skills-developer {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  height: 151px;
+  width: 151px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding-top: 25px;
+}
+
+.footer-link {
+  color: #11999e;
+}
+
+.contact-me {
+  padding: 25px;
+}
+
+.copyright{
+  margin-bottom: 0; 
+  color: #eaf6f6; 
+  padding: 20px;
+  font-size: 0.75rem;
+}
+
+/*buuton*/
+
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button-container-2 {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  overflow: hidden;
+  border: 1px solid #000;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  border-radius: 8px;
+}
+
+.button-container-2 button {
+  width: 101%;
+  height: 100%;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background: #000;
+  -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  -webkit-mask-size: 3000% 100%;
+  mask-size: 3000% 100%;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  -webkit-animation: ani2 0.7s steps(29) forwards;
+  animation: ani2 0.7s steps(29) forwards;
+}
+
+.button-container-2 button:hover {
+  -webkit-animation: ani 0.7s steps(29) forwards;
+  animation: ani 0.7s steps(29) forwards;
+}
+
+.mas {
+  position: absolute;
+  color: #000;
+  text-align: center;
+  width: 101%;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  position: absolute;
+  font-size: 11px;
+  margin-top: 17px;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+@-webkit-keyframes ani {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+
+@keyframes ani {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+
+@-webkit-keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+
+@keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+
+a {
+  color: #00ff95;
+}
